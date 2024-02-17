@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CALLE Co.</title>
+        <link rel="stylesheet" href="CALLE Co..css"> 
+        <link rel="stylesheet" href="calle.js">
+    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <div id="navbar" style="border-bottom: 5px solid black;">
+        <img src="images/logo.jpeg" style="height: 6.5rem;">
+        <ul type="none"> 
+        <li><a href="CalleCO.html">Home</a></li>
+        <li><a href="CalleCOMENU.html">Menu</a></li>
+        <li><a href="CalleCOREVIEW.html">Review</a></li>
+        <li><a href="CalleCOCONTACT.html">Contact</a></li>
+        <li><a href="CalleCOABOUT.html">AboutUs</a></li>
+        <li><a href="CALLE Co..css"></a></li>
+        </ul>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Get the form element
+                var form = document.querySelector('form');
+        
+                // Add event listener for form submission
+                form.addEventListener('submit', function(event) {
+                    // Prevent the default form submission behavior
+                    event.preventDefault();
+        
+                    // Display the message
+                    alert("Your review is recorded");
+                });
+            });
+        </script>
+        
+</head>
+<body>
+    <iframe src="navbar.html" width="100%" height="120" frameborder="0" scrolling="no"></iframe>
+
+    <div id="review">
+        <h1>Customer Review</h1>
+        <table>
+        <tbody><tr> 
+            <td><img src="images/review1.jpg" width="300"></td>
+            <td>-Would Recomend 10/10!</td>          
+        </tr> 
+        <tr>                    
+            <td><img src="images/review2.jpg" width="300"></td>
+            <td>-Yummy and Super Fast.</td>
+        </tr>
+        <tr>        
+            <td><img src="images/review3.jpg" width="300"></td>
+            <td>-Definitely My Best so Far!</td>
+        </tr>
+        <tr>        
+            <td><img src="images/review4.jpg" width="300"></td>
+            <td>-Would Definitely Buy Again!</td>
+        </tr>
+        <tr>        
+            <td><img src="images/review5.jpg" width="300"></td>
+            <td>-Good Place to Drink and Enjoy!</td>
+        </tr>
+        <tr>        
+            <td><img src="images/review6.jpg" width="300"></td>
+            <td>-Super Tasty!</td>
+        </tr>
+        </tbody></table>
+ 
+        <form>
+        <center>
+        <h4>COMMENTS/SUGGESTIONS</h4>
+        <textarea name="COMMENTS" cols="70" rows="10">Enter Your Text Here.</textarea>
+        <br><br>
+        
+        <h4>UPLOAD YOUR PHOTO</h4>
+        <input type="file" name="fileupload" accept="images/*">
+        <br><br>
+        
+        <input type="submit" name="submit" value="SUBMIT">
+        <input type="reset" name="clear" value="CLEAR">
+        <br><br>
+        
+        </center>
+        </form>
+        </div>
+
+</body>
+</html>

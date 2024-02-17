@@ -1,0 +1,215 @@
+
+#about{
+    margin-top: -2%;
+    margin-left: -1%;
+}
+ul{
+    display: flex;
+    padding-left: 20%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+}
+a{ 
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    text-decoration: unset;
+}
+li{
+    margin-left: 20%;
+    font-family: Pristina,sans-serif;
+}
+a:hover{
+    color: white;
+    text-decoration: overline underline;
+}
+#navbar{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    background-color:rgba(0,0,0,0.9); 
+}
+#home-content{
+    padding-top: 10%;
+    padding-left: 23%;
+    padding-right: 10%;
+    color: white;	
+}
+button{
+    background-color: lightgreen;
+    height: 50px;
+    width: 170px;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 3%;
+    border: 3px solid lightgreen;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h1{
+   padding-top: 8%;
+   text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px -2px 5px rgb(255, 255, 255);
+   font-family: Stencil, sans-serif;
+   text-align: center;
+}
+table{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 80%;
+}
+td {
+    color: rgb(0, 0, 0);
+    padding-top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px -2px 5px rgb(255, 255, 255);
+
+    background-color: rgb(128, 176, 137);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.coffee{
+    width: 33%;
+    text-align: center;
+}
+.coffeemenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#order{
+    padding-bottom: 25%;
+}
+h3{
+outline-style: solid;
+text-align: center;
+background-color: rgb(255,248,220); 
+border: 10px solid rgb(66, 11, 1); 
+border-radius: 200px; 
+padding:  10px; 
+margin: 10px;
+}
+h2{
+text-align: center;
+outline-style: solid;
+background-color: rgb(255,248,220); 
+border: 10px solid rgb(66, 11, 1); 
+border-radius: 200px; 
+padding:  10px; 
+margin: 10px;
+}
+p{
+text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px -2px 5px rgb(255, 255, 255);
+font-weight: bold;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background-image: url("images/calleBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%
+    background-position: center;
+    background-size: cover;
+    }
+.aboutUs{
+    outline-style: solid;
+    text-align: center;
+    background-color: rgb(235, 179, 106); 
+    border: 10px solid rgb(66, 11, 1); 
+    border-radius: 100px; 
+    padding:  20px; 
+    margin: 20px;
+}
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+#order {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label, input, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    align-self: flex-end;
+    background-color: #129e2e;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.coffee img {
+    object-fit: flex;
+    width: 100%;
+    height: 100%;
+}
+h4{
+    text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px -2px 5px rgb(255, 255, 255);
+}
+
+
+
+
+#review form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#review form h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#review form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#review form input[type="file"] {
+    margin-bottom: 20px;
+}
+
+#review form input[type="submit"],
+#review form input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#review form input[type="submit"]:hover,
+#review form input[type="reset"]:hover {
+    background-color: #45a049;
+}
